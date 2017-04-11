@@ -4,6 +4,7 @@ import csv
 
 vals = []
 
+# it checks each line of the .csv file and reads the data
 for line in sys.stdin:
 
 	l = list(csv.reader([line])) [0]
@@ -23,11 +24,8 @@ for line in sys.stdin:
 		"headache" : l[8],
 		"sex" : l[9].strip()
 		}
-		print '{0}\t{1}'.format(l[5],l[8])
+		print '{0}\t{1}'.format(l[5],l[8]) 
+
+		# prints the values of age and headache
 
 
-
-#print vals
-
-#for val in vals:
-#    print '%d,%s' % (val["age"], val["headache"])
