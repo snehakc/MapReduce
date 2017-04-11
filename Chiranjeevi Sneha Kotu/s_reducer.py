@@ -1,35 +1,33 @@
-#!/usr/bin python
 import sys
 
 
-#def get_lamda(min, max, headache):
- #   return lambda val: val["age"] >= min and \
-  #                     val["age"] <= max and \
-   #                    val["headache"] == headache
+yesTotal = 0
+noTotal = 0
+oldKey = None
 
-
-val = []
 
 for line in sys.stdin:
-    
-    data=line.strip().split('\t') 
-  
-    vals = {
-      "age":data[0],
-     "headache":data[1] 
-     }
-    val.append(vals)
+    data_mapped = line.strip().split("\t")
+    if len(data_mapped) != 2:
+        # Something has gone wrong. Skip this line.
+        continue
+
+    thisKey, thisvalue = data_mapped
 
 
-print "Statistical data of headache for age group of 30"
-print "------------------------------------"
+    if oldKey and oldKey != thisKey:
+       # print "\tAge group of people:", oldKey, "\tNumber of people who have headache as symptom:", yesTotal, "\tNumber of people who do not have headache as symptom:", noTotal
+	print oldKey, yesTotal, noTotal
+        oldKey = thisKey;
+        yesTotal = 0
+	noTotal = 0
 
-if data[0] >= 30:
+    oldKey = thisKey
+    if thisvalue == 'yes':
+   	    yesTotal += 1
+    else:
+        noTotal += 1
 
- print vals
-	
-else:
-    print "Other age groups"
-
-
-#print val
+if oldKey != None:
+    #print "\tAge group of people:", oldKey, "\tNumber of people who have headache as symptom:", yesTotal, "\tNumber of people who do not have headache as symptom:", noTotal
+	print oldKey, yesTotal, noTotal
