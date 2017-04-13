@@ -76,7 +76,12 @@ $ ls
 s_mapper.py s_reducer.py results.txt
 ```
 
-
+Refrences:
+```
+Checked these for solution to streaming command failed!
+http://stackoverflow.com/questions/15302262/hadoop-streaming-command-failure-with-python-error
+http://stackoverflow.com/questions/27451984/hadoop-streaming-command-failed-job-not-successful
+```
 
 
 
