@@ -83,18 +83,23 @@ Refrences:
 Checked these for solution to streaming command failed!
 http://stackoverflow.com/questions/15302262/hadoop-streaming-command-failure-with-python-error
 http://stackoverflow.com/questions/27451984/hadoop-streaming-command-failed-job-not-successful
+http://stackoverflow.com/questions/25466296/hadoop-streaming-command-failed
+http://stackoverflow.com/questions/32169436/hadoop-2-5-0-job-not-successful-streaming-command-failed
 ```
 
 Mapper Output:
 ```
 included inside the folder
-
 ```
 
 Reducer Output:
 ```
-
 included inside the folder
+```
+
+FINAL RESULTS:
+```
+graph included in folder
 
 ```
 
