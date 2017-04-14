@@ -75,6 +75,8 @@ Check for a local copy with ls:
 $ ls 
 s_mapper.py s_reducer.py results.txt
 ```
+DATA & CITATIONS:
+
 
 Refrences:
 ```
@@ -82,6 +84,19 @@ Checked these for solution to streaming command failed!
 http://stackoverflow.com/questions/15302262/hadoop-streaming-command-failure-with-python-error
 http://stackoverflow.com/questions/27451984/hadoop-streaming-command-failed-job-not-successful
 ```
+
+Mapper Output:
+```
+[url=https://postimg.org/image/bnrh2qi9d/][img]https://s24.postimg.org/bnrh2qi9d/mapperoutput.jpg[/img][/url]
+
+```
+
+Reducer Output:
+```
+
+[url=https://postimg.org/image/dtlrx8lpt/][img]https://s24.postimg.org/dtlrx8lpt/reduceroutput.jpg[/img][/url]
+```
+
 
 
 
