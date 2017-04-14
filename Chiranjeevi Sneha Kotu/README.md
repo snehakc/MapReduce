@@ -87,14 +87,15 @@ http://stackoverflow.com/questions/27451984/hadoop-streaming-command-failed-job-
 
 Mapper Output:
 ```
-[url=https://postimg.org/image/bnrh2qi9d/][img]https://s24.postimg.org/bnrh2qi9d/mapperoutput.jpg[/img][/url]
+included inside the folder
 
 ```
 
 Reducer Output:
 ```
 
-[url=https://postimg.org/image/dtlrx8lpt/][img]https://s24.postimg.org/dtlrx8lpt/reduceroutput.jpg[/img][/url]
+included inside the folder
+
 ```
 
 
