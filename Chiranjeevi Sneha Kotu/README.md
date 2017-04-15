@@ -97,7 +97,7 @@ Reducer Output:
 FINAL RESULTS:
 
 graph shows the age groups with headache as symptom
-![alt tag](https://github.com/snehakc/MapReduce/blob/master/Chiranjeevi%20Sneha%20Kotu/Images/GraphofAgegroups%20and%20headaches.png)
+![alt tag](https://github.com/snehakc/MapReduce/blob/master/Chiranjeevi%20Sneha%20Kotu/Images/OutputGraph.png)
 
 
 
