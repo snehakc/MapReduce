@@ -88,21 +88,17 @@ http://stackoverflow.com/questions/32169436/hadoop-2-5-0-job-not-successful-stre
 ```
 
 Mapper Output:
-```
 ![alt tag](https://github.com/snehakc/MapReduce/blob/master/Chiranjeevi%20Sneha%20Kotu/Images/mapperoutput.JPG)
 
-```
-
 Reducer Output:
-```
 ![alt tag](https://github.com/snehakc/MapReduce/blob/master/Chiranjeevi%20Sneha%20Kotu/Images/reducerout.JPG)
-```
+
 
 FINAL RESULTS:
-```
+
 graph shows the age groups with headache as symptom
 ![alt tag](https://github.com/snehakc/MapReduce/blob/master/Chiranjeevi%20Sneha%20Kotu/Images/GraphofAgegroups%20and%20headaches.png)
-```
+
 
 
 
