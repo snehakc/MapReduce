@@ -1,34 +1,33 @@
-#!/usr/bin python
 import sys
 
 
-#def get_lamda(medication):
-  return lambda val: val["sex"] = 'Female' and \    
-                     val["medication"] == medication
+medicationTotal = 0
+nomedicationTotal = 0
+oldKey = None
 
-
-val = []
 
 for line in sys.stdin:
-    
-    data=line.strip().split('\t') 
-  
-    vals = {
-      "age":data[0],
-     "headache":data[1] 
-     }
-    val.append(vals)
+    data_mapped = line.strip().split("\t")
+    if len(data_mapped) != 2:
+        # Something has gone wrong. Skip this line.
+        continue
+
+    thisKey, thisvalue = data_mapped
 
 
-print "Statistical data of females taking medications"
-print "------------------------------------"
+    if oldKey and oldKey != thisKey:
+       # print "\tsex of the people:", oldKey, "\tNumber of people who take medication:", medicationTotal, "\tNumber of people who do not have headache as symptom:", noMedicationTotal
+	print oldKey, medicationTotal, noamedicationTotal
+        oldKey = thisKey;
+        medicationTotal = 0
+	noMedicationTotal = 0
 
-if data[sex] = 'Female':
+    oldKey = thisKey
+    if thisvalue == 'none':
+   	    nomedicationTotal += 1
+    else:
+        medicationTotal += 1
 
- print vals
-	
-else:
-    print "Other age groups"
-
-
-print val
+if oldKey != None:
+    #print "\tSex of the people:", oldKey, "\tNumber of people who are taking medication:", medicationTotal, "\tNumber of people who do not have headache as symptom:", noMedicationTotal
+print oldKey, MedicationTotal, noMedicationTotal
