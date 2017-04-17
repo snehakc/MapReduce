@@ -23,11 +23,11 @@ for line in sys.stdin:
 	noMedicationTotal = 0
 
     oldKey = thisKey
-    if thisvalue == 'none':
+    if thisKey == 'female'
+       if thisvalue == 'none':
    	    nomedicationTotal += 1
-    else:
-        medicationTotal += 1
+       else:
+            medicationTotal += 1
 
-if oldKey != None:
     #print "\tSex of the people:", oldKey, "\tNumber of people who are taking medication:", medicationTotal, "\tNumber of people who do not have headache as symptom:", noMedicationTotal
 print oldKey, MedicationTotal, noMedicationTotal
