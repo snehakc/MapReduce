@@ -88,7 +88,9 @@ Mapper Output
 Reducer Output 
 ![v_Reducer_Output](v_Reducer_Output.jpeg)
 
-MapReduce Output 
+MapReduce Output
+
+
 ![MapReduce_Output](MapReduce_Output.PNG)
 
 
