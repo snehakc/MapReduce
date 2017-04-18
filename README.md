@@ -81,3 +81,8 @@ Check for a local copy with ls:
 $ ls 
 
 s_mapper.py s_reducer.py results.txt
+
+Mapper Output 
+![v_Mapper_Output](v_Mapper_Output.jpeg)
+
+
