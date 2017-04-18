@@ -84,7 +84,8 @@ s_mapper.py s_reducer.py results.txt
 
 Data and Citations :
 
-Data is taken from https://vincentarelbundock.github.io/Rdatasets/datasets.html
+Data is taken from https://vincentarelbundock.github.io/Rdatasets/datasets.html In these select Treatment of Migraine Headache
+more about dataset information : https://vincentarelbundock.github.io/Rdatasets/doc/car/KosteckiDillon.html
 
 References seen for data streaming command fail error 
 
