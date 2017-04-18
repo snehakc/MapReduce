@@ -76,7 +76,10 @@ $ ls
 s_mapper.py s_reducer.py results.txt
 ```
 DATA & CITATIONS:
-
+```
+Data is taken from https://vincentarelbundock.github.io/Rdatasets/datasets.html
+https://vincentarelbundock.github.io/Rdatasets/doc/car/KosteckiDillon.html
+```
 
 Refrences:
 ```
