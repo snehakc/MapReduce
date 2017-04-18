@@ -85,7 +85,9 @@ s_mapper.py s_reducer.py results.txt
 Data and Citations :
 
 Data is taken from https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
 References seen for data streaming command fail error 
+
 http://stackoverflow.com/questions/15302262/hadoop-streaming-command-failure-with-python-error
 http://stackoverflow.com/questions/27451984/hadoop-streaming-command-failed-job-not-successful
 http://stackoverflow.com/questions/25466296/hadoop-streaming-command-failed
