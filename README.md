@@ -85,4 +85,10 @@ s_mapper.py s_reducer.py results.txt
 Mapper Output 
 ![v_Mapper_Output](v_Mapper_Output.jpeg)
 
+Reducer Output 
+![v_Reducer_Output](v_Reducer_Output.jpeg)
+
+MapReduce Output 
+![MapReduce_Output](MapReduce_Output.png)
+
 
