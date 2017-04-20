@@ -1,10 +1,10 @@
+#!/usr/bin/python
 import sys
 
 
 medicationTotal = 0
-nomedicationTotal = 0
+noMedicationTotal = 0
 oldKey = None
-
 
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")
@@ -14,20 +14,21 @@ for line in sys.stdin:
 
     thisKey, thisvalue = data_mapped
 
-
+# checks if the key is same as the old key and then prints the data if the key is same
     if oldKey and oldKey != thisKey:
-       # print "\tsex of the people:", oldKey, "\tNumber of people who take medication:", medicationTotal, "\tNumber of people who do not have headache as symptom:", noMedicationTotal
-	print oldKey, medicationTotal, noamedicationTotal
+       # print "\tSex of the person:", oldKey, "\ttaking medication:", medicationTotal, "\tNot taking Medication:", noMedicationTotal 
         oldKey = thisKey;
-        medicationTotal = 0
-	noMedicationTotal = 0
+	#print oldKey
+	#print thisKey
+	
 
     oldKey = thisKey
-    if thisKey == 'female'
-       if thisvalue == 'none':
-   	    nomedicationTotal += 1
-       else:
-            medicationTotal += 1
-
-    #print "\tSex of the people:", oldKey, "\tNumber of people who are taking medication:", medicationTotal, "\tNumber of people who do not have headache as symptom:", noMedicationTotal
-print oldKey, MedicationTotal, noMedicationTotal
+    if thisKey == 'female':
+	if thisvalue == 'none':
+   	    noMedicationTotal += 1
+	
+	else:
+	    medicationTotal += 1
+	   # print thisKey
+	    #print thisvalue
+print "\t Number of females taking medication:", medicationTotal, "\t Number of females Not taking Medication:", noMedicationTotal
